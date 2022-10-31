@@ -1,0 +1,273 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "description": "Swagger",
+    "version": "1.0.0",
+    "title": "Swagger Api Endpoints",
+    "contact": {
+      "email": ""
+    },
+    "license": {
+      "name": "",
+      "url": ""
+    }
+  },
+
+ "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Employee Request",
+      "description": "Example API for requesting and return Employee requests"
+    }
+  ],
+  "paths": {
+    "/get_emp/": {
+      "get": {
+        "tags": [
+          "Employee Request"
+        ],
+        "summary": "Returns employeeRequests",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/employeeRequests"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Employee Request"
+        ],
+        "summary": "Create a new employee request system",
+        "requestBody": {
+          "description": "Employee Request Post Object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/employeeRequestPostBody"
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "201": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          "400": {
+            "description": "Failed. Bad post data."
+          }
+        }
+      }
+    },
+    "/emp/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of the employee that we want to match",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Employee Request"
+        ],
+        "summary": "Get employee request with given ID",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "description": "Employee Request id",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/employeeRequests"
+            }
+          },
+          "400": {
+            "description": "Failed. Misunderstood Request."
+          },
+          "404": {
+            "description": "Failed. Blog request not found."
+          }
+        }
+      },
+      "put": {
+        "summary": "edit a employee request by ID",
+        "tags": [
+          "Employee Request"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "description": "Employee Request id",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Employee Request Object",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/employeeRequest"
+              }
+            }
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/employeeRequest"
+            }
+          },
+          "400": {
+            "description": "Failed. Bad post data."
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete Employee Request by ID",
+        "tags": [
+          "Employee Request"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "description": "Employee Request Id",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          "400": {
+            "description": "Failed. Misunderstood Request."
+          },
+          "404": {
+            "description": "Failed. Employee Request not found."
+          }
+        },
+        
+        
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "id": {
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      },
+      "employeeRequestPostBody": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "format": "number"
+          },
+          "username": {
+            "type": "string",
+            "format": "string"
+          },
+          "password": {
+            "type": "password",
+            "format": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "string"
+          },
+           "first_name": {
+             "type": "string",
+             "format": "string"
+          },
+           "last_name": {
+             "type": "string",
+             "format": "string"
+          },
+          
+                   
+        }
+      },
+      "employeeRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "format": "string"
+          },
+          "password": {
+            "type": "password",
+            "format": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "string"
+          },
+           "first_name": {
+             "type": "string",
+             "format": "string"
+          },
+           "last_name": {
+             "type": "string",
+             "format": "string"
+          },
+           
+        }
+      },
+      "employeeRequests": {
+        "type": "object",
+        "properties": {
+          "employeeRequest": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/employeeRequest"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+      

@@ -1,0 +1,1363 @@
+2022-10-27 17:12:04,233 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:12:04,233 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:12:04,241 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:12:05,863 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:12:05,872 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:13:30,742 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:13:30,745 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:13:30,747 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:13:32,375 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:13:32,379 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:15:00,567 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:15:00,733 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:15:02,415 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:15:02,419 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:15:08,179 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:15:08,360 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:15:10,190 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:15:10,194 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:15:27,987 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:15:27,987 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:15:27,989 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:15:29,865 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:15:29,875 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:16:30,539 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\employee.py', reloading
+2022-10-27 17:16:30,727 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:16:32,303 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:16:32,307 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:17:04,790 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\attendance.py', reloading
+2022-10-27 17:17:04,990 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:17:06,957 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:17:06,962 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:17:11,860 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:17:11,861 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:17:11,863 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:17:13,360 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:17:13,364 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:17:52,852 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:17:52,852 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:17:52,855 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:17:54,672 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:17:54,676 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:18:41,212 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:18:41,398 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:20:20,052 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:20:20,052 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:20:20,054 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:20:21,566 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:20:21,570 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:20:53,079 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:20:53,324 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:20:55,507 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:20:55,511 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:21:03,293 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:21:03,294 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:21:03,296 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:21:05,029 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:21:05,034 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:21:39,345 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:21:39,345 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:21:39,347 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:21:41,071 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:21:41,077 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:23:02,957 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:23:03,169 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:23:05,156 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:23:05,161 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:23:29,321 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:23:29,468 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:23:31,165 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:23:31,170 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:24:16,266 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:24:16,458 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:25:07,566 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:25:07,566 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:25:07,570 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:25:09,870 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:25:09,875 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:25:51,759 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 17:25:51,760 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 17:25:51,762 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:25:52,913 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:25:52,920 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:26:07,084 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:26:07,224 INFO werkzeug :  * Restarting with stat
+2022-10-27 17:26:08,545 WARNING werkzeug :  * Debugger is active!
+2022-10-27 17:26:08,549 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 17:26:18,668 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-27 17:26:18,836 INFO werkzeug :  * Restarting with stat
+2022-10-27 18:34:21,566 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 18:34:21,567 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 18:34:21,569 INFO werkzeug :  * Restarting with stat
+2022-10-27 18:34:23,132 WARNING werkzeug :  * Debugger is active!
+2022-10-27 18:34:23,137 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 18:34:28,376 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:34:28] "[35m[1mPOST /emp_login/ HTTP/1.1[0m" 500 -
+2022-10-27 18:36:05,113 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:36:05] "[35m[1mPOST /get_emp/ HTTP/1.1[0m" 500 -
+2022-10-27 18:36:50,812 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:36:50] "[35m[1mPOST /get_emp/ HTTP/1.1[0m" 500 -
+2022-10-27 18:43:24,419 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-10-27 18:43:24,419 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-27 18:43:24,421 INFO werkzeug :  * Restarting with stat
+2022-10-27 18:43:26,311 WARNING werkzeug :  * Debugger is active!
+2022-10-27 18:43:26,320 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 18:43:30,491 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:43:30] "GET / HTTP/1.1" 200 -
+2022-10-27 18:43:33,351 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:43:33] "GET / HTTP/1.1" 200 -
+2022-10-27 18:43:36,687 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:43:36] "GET / HTTP/1.1" 200 -
+2022-10-27 18:43:37,890 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:43:37] "GET / HTTP/1.1" 200 -
+2022-10-27 18:43:56,691 INFO view : Department added successfully
+2022-10-27 18:43:56,700 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:43:56] "POST /get_emp/ HTTP/1.1" 200 -
+2022-10-27 18:44:07,330 INFO view : Get token when login
+2022-10-27 18:44:07,331 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:44:07] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-27 18:44:21,980 INFO view : Get token when login
+2022-10-27 18:44:21,981 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:44:21] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-27 18:44:56,930 INFO werkzeug : 127.0.0.1 - - [27/Oct/2022 18:44:56] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-27 18:47:01,442 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\employee.py', reloading
+2022-10-27 18:47:01,668 INFO werkzeug :  * Restarting with stat
+2022-10-27 18:47:03,266 WARNING werkzeug :  * Debugger is active!
+2022-10-27 18:47:03,270 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-27 19:01:22,264 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\employee.py', reloading
+2022-10-27 19:01:22,462 INFO werkzeug :  * Restarting with stat
+2022-10-27 19:01:24,281 WARNING werkzeug :  * Debugger is active!
+2022-10-27 19:01:24,286 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 10:32:57,178 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 10:32:57,178 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 10:32:57,181 INFO werkzeug :  * Restarting with stat
+2022-10-28 10:32:58,605 WARNING werkzeug :  * Debugger is active!
+2022-10-28 10:32:58,612 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 10:33:19,465 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 10:33:19] "GET / HTTP/1.1" 200 -
+2022-10-28 10:33:19,576 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 10:33:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-10-28 10:33:54,858 INFO view : Get token when login
+2022-10-28 10:33:54,860 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 10:33:54] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 10:33:59,294 INFO view : Get token when login
+2022-10-28 10:33:59,296 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 10:33:59] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:14:28,125 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:14:28,318 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:14:30,161 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:14:30,167 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:17:50,061 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:17:50,225 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:17:52,249 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:17:52,255 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:19:49,060 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:19:49,277 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:19:50,886 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:19:50,895 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:20:00,508 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 11:20:00,508 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 11:20:00,510 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:20:02,145 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:20:02,149 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:20:05,548 INFO view : Get token when login
+2022-10-28 11:20:05,550 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:20:05] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:20:24,950 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:20:24] "[31m[1mGET /get_job/ HTTP/1.1[0m" 401 -
+2022-10-28 11:20:40,975 INFO view : Get token when login
+2022-10-28 11:20:40,978 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:20:40] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:20:55,549 INFO view : Get all role 
+2022-10-28 11:20:55,550 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:20:55] "GET /get_job/ HTTP/1.1" 200 -
+2022-10-28 11:21:13,118 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:21:13] "[31m[1mPOST /post_job/ HTTP/1.1[0m" 400 -
+2022-10-28 11:21:33,640 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:21:33] "[31m[1mPOST /post_job/ HTTP/1.1[0m" 400 -
+2022-10-28 11:22:53,474 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:22:53] "[35m[1mPOST /post_job/ HTTP/1.1[0m" 500 -
+2022-10-28 11:24:06,772 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:24:06,977 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:24:08,810 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:24:08,815 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:24:24,857 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:24:24] "[31m[1mPOST /get_dept/ HTTP/1.1[0m" 401 -
+2022-10-28 11:24:31,066 INFO view : Get token when login
+2022-10-28 11:24:31,068 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:24:31] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:24:47,565 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:24:47] "[35m[1mPOST /get_dept/ HTTP/1.1[0m" 500 -
+2022-10-28 11:26:01,296 INFO view : Department added successfully
+2022-10-28 11:26:01,299 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:26:01] "POST /get_dept/ HTTP/1.1" 200 -
+2022-10-28 11:26:07,898 INFO view : Job added successfully
+2022-10-28 11:26:07,902 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:26:07] "POST /post_job/ HTTP/1.1" 200 -
+2022-10-28 11:26:40,309 INFO view : Get all role 
+2022-10-28 11:26:40,313 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:26:40] "GET /get_job/ HTTP/1.1" 200 -
+2022-10-28 11:30:16,035 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:30:16] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 11:30:21,112 INFO view : Get token when login
+2022-10-28 11:30:21,114 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:30:21] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:30:39,609 INFO view : Get all user
+2022-10-28 11:30:39,613 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:30:39] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 11:31:36,815 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:31:36,971 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:31:38,838 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:31:38,844 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:31:44,788 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 11:31:44,788 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 11:31:44,791 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:31:46,397 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:31:46,405 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:31:50,004 INFO view : Get all role 
+2022-10-28 11:31:50,006 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:31:50] "GET /get_job/ HTTP/1.1" 200 -
+2022-10-28 11:36:26,241 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:36:26,401 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:36:28,626 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:36:28,631 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:36:54,985 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:36:54] "[31m[1mGET /get_all_dept/ HTTP/1.1[0m" 401 -
+2022-10-28 11:37:00,463 INFO view : Get token when login
+2022-10-28 11:37:00,464 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:37:00] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:37:15,166 INFO view : Get all departments post
+2022-10-28 11:37:15,187 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:37:15] "GET /get_all_dept/ HTTP/1.1" 200 -
+2022-10-28 11:39:48,937 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:39:49,106 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:39:50,821 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:39:50,826 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:40:29,485 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:40:29,682 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:40:31,932 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:40:31,939 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:40:45,279 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 11:40:45,279 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 11:40:45,281 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:40:47,105 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:40:47,112 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:41:00,696 INFO view : Get all user
+2022-10-28 11:41:00,720 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:41:00] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 11:46:07,718 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:46:08,013 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:46:09,819 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:46:09,823 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:46:57,959 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:46:58,115 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:46:59,770 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:46:59,774 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:47:19,144 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:47:19,353 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:47:21,237 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:47:21,242 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:49:17,082 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:49:17,254 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:49:19,062 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:49:19,069 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:50:19,402 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:50:19,589 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:50:21,213 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:50:21,218 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:50:45,890 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:50:46,100 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:50:47,665 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:50:47,670 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:51:14,628 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:51:14,805 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:51:16,766 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:51:16,774 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:51:38,420 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:51:38,625 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:51:40,198 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:51:40,203 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:53:47,754 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:53:47,990 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:53:49,981 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:53:49,987 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:56:29,156 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 11:56:29,345 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:56:31,328 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:56:31,334 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:56:40,001 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 11:56:40,001 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 11:56:40,003 INFO werkzeug :  * Restarting with stat
+2022-10-28 11:56:41,708 WARNING werkzeug :  * Debugger is active!
+2022-10-28 11:56:41,713 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 11:57:09,017 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:57:09] "[31m[1mPOST /post_leave/ HTTP/1.1[0m" 401 -
+2022-10-28 11:57:14,491 INFO view : Get token when login
+2022-10-28 11:57:14,492 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:57:14] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 11:57:30,484 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:57:30] "[35m[1mPOST /post_leave/ HTTP/1.1[0m" 500 -
+2022-10-28 11:59:28,214 INFO view : On duty time added successfully
+2022-10-28 11:59:28,220 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:59:28] "POST /post_leave/ HTTP/1.1" 200 -
+2022-10-28 11:59:43,214 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 11:59:43] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-10-28 12:01:45,133 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:01:45] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-10-28 12:02:27,495 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:02:27] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 12:02:31,765 INFO view : Get token when login
+2022-10-28 12:02:31,767 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:02:31] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:02:43,572 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:02:43] "[35m[1mPOST /post_onduty/ HTTP/1.1[0m" 500 -
+2022-10-28 12:04:09,584 INFO view : On duty time added successfully
+2022-10-28 12:04:09,588 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:04:09] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-10-28 12:04:14,786 INFO view : On duty time added successfully
+2022-10-28 12:04:14,791 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:04:14] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 12:04:24,321 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:04:24] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 12:04:29,336 INFO view : Get token when login
+2022-10-28 12:04:29,338 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:04:29] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:04:45,129 INFO view : Get all user
+2022-10-28 12:04:45,155 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:04:45] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:20:09,582 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:20:09,846 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:20:11,599 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:20:11,605 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:20:42,942 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:20:43,126 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:20:44,968 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:20:44,973 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:20:54,871 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:20:55,102 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:20:56,994 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:20:56,999 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:22:30,062 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:22:30,267 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:22:32,379 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:22:32,384 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:24:00,043 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:24:00,262 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:24:02,135 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:24:02,140 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:24:29,126 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 12:24:29,127 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 12:24:29,131 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:24:31,578 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:24:31,584 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:24:52,182 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:24:52] "[31m[1mGET /attend_info/1 HTTP/1.1[0m" 401 -
+2022-10-28 12:24:59,912 INFO view : Get token when login
+2022-10-28 12:24:59,914 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:24:59] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:25:21,610 INFO view : Get role with particular id.
+2022-10-28 12:25:21,612 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:25:21] "GET /attend_info/1 HTTP/1.1" 200 -
+2022-10-28 12:28:43,079 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:28:43,259 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:28:44,977 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:28:44,981 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:29:18,220 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 12:29:18,220 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 12:29:18,224 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:29:20,248 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:29:20,253 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:29:21,668 INFO view : Get role with particular id.
+2022-10-28 12:29:21,713 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:29:21] "[35m[1mGET /attend_info/1 HTTP/1.1[0m" 500 -
+2022-10-28 12:29:42,480 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:29:42,643 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:29:44,252 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:29:44,257 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:29:48,484 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 12:29:48,484 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 12:29:48,487 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:29:50,270 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:29:50,274 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:29:51,099 INFO view : Get role with particular id.
+2022-10-28 12:29:51,102 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:29:51] "GET /attend_info/1 HTTP/1.1" 200 -
+2022-10-28 12:32:06,313 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:32:06] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 12:32:13,002 INFO view : Get token when login
+2022-10-28 12:32:13,003 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:32:13] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:32:34,689 INFO view : On duty time added successfully
+2022-10-28 12:32:34,743 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:32:34] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 12:34:16,528 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:34:16,746 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:34:18,509 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:34:18,514 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:34:26,131 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 12:34:26,131 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 12:34:26,135 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:34:27,842 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:34:27,849 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:34:44,102 INFO view : Get all role 
+2022-10-28 12:34:44,104 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:34:44] "GET /get_attend/ HTTP/1.1" 200 -
+2022-10-28 12:37:41,590 INFO view : Get role with particular id.
+2022-10-28 12:37:41,591 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:37:41] "GET /attend_info/1 HTTP/1.1" 200 -
+2022-10-28 12:40:36,021 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:40:36] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 12:40:41,308 INFO view : Get token when login
+2022-10-28 12:40:41,310 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:40:41] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:40:54,933 INFO view : Get all user
+2022-10-28 12:40:54,966 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:40:54] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:42:08,531 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:42:08,747 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:42:10,379 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:42:10,384 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:42:37,075 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:42:37] "POST /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:43:21,681 INFO view : Department added successfully
+2022-10-28 12:43:21,686 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:43:21] "POST /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:43:26,973 INFO view : Get all user
+2022-10-28 12:43:27,054 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:43:27] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:43:42,373 INFO view : Get token when login
+2022-10-28 12:43:42,374 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:43:42] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:43:47,736 INFO view : Get all user
+2022-10-28 12:43:47,755 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:43:47] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:43:58,325 INFO view : Get all user
+2022-10-28 12:43:58,342 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:43:58] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:44:15,425 INFO view : Get all user
+2022-10-28 12:44:15,442 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:44:15] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 12:47:49,993 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:47:49] "[31m[1mPOST /emp/search/ HTTP/1.1[0m" 401 -
+2022-10-28 12:47:57,370 INFO view : Get token when login
+2022-10-28 12:47:57,372 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:47:57] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 12:48:11,253 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:48:11] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:48:35,142 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:48:35] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:48:38,587 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:48:38] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:48:52,232 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:48:52] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:49:10,037 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:10] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:49:11,671 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:11] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:49:16,573 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:16] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:49:21,952 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:21] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:49:29,902 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:29] "[31m[1mGET /emp/search/ HTTP/1.1[0m" 405 -
+2022-10-28 12:49:34,075 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:49:34] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 12:51:50,885 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 12:51:51,212 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:51:52,904 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:51:52,909 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:52:01,672 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 12:52:01,673 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 12:52:01,676 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:52:03,339 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:52:03,344 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:52:24,766 INFO view : Get all role 
+2022-10-28 12:52:24,777 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:52:24] "GET /get_leave/ HTTP/1.1" 200 -
+2022-10-28 12:52:44,746 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 12:52:44] "GET /get_leave/ HTTP/1.1" 200 -
+2022-10-28 12:57:42,916 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\attendance.py', reloading
+2022-10-28 12:57:43,147 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:57:44,798 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:57:44,803 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:58:29,582 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\job_title.py', reloading
+2022-10-28 12:58:29,745 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:58:31,532 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:58:31,538 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 12:59:56,895 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\attendance.py', reloading
+2022-10-28 12:59:57,077 INFO werkzeug :  * Restarting with stat
+2022-10-28 12:59:58,550 WARNING werkzeug :  * Debugger is active!
+2022-10-28 12:59:58,554 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:01:03,101 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:01:03,258 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:01:05,096 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:01:05,101 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:02:21,196 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:02:21,358 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:02:22,867 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:02:22,871 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:03:04,808 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:03:05,054 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:03:06,783 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:03:06,788 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:03:34,253 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:03:34,528 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:03:36,285 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:03:36,290 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:03:58,548 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:03:58,764 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:04:00,663 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:04:00,667 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:04:25,906 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 13:04:25,907 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 13:04:25,909 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:04:28,177 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:04:28,182 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:06:01,886 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 13:06:01,886 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 13:06:01,889 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:06:03,823 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:06:03,827 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:06:06,864 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:06:06] "GET / HTTP/1.1" 200 -
+2022-10-28 13:07:01,342 INFO view : Department added successfully
+2022-10-28 13:07:01,384 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:01] "POST /get_emp/ HTTP/1.1" 200 -
+2022-10-28 13:07:10,135 INFO view : Get token when login
+2022-10-28 13:07:10,136 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:10] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:07:21,641 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:21] "[31m[1mPOST /emp/search/ HTTP/1.1[0m" 401 -
+2022-10-28 13:07:27,575 INFO view : Get token when login
+2022-10-28 13:07:27,576 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:27] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:07:44,657 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:44] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 13:07:52,302 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:07:52] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 13:08:03,025 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:08:03] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 13:08:08,529 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:08:08] "[31m[1mGET /emp/search/ HTTP/1.1[0m" 405 -
+2022-10-28 13:08:21,784 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:08:21] "[31m[1mGET /emp/search/ HTTP/1.1[0m" 405 -
+2022-10-28 13:08:27,522 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:08:27] "POST /emp/search/ HTTP/1.1" 200 -
+2022-10-28 13:09:46,953 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:09:46] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 13:10:01,526 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:10:01] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 13:10:27,302 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:10:27] "[31m[1mPOST /post_job/ HTTP/1.1[0m" 401 -
+2022-10-28 13:10:38,242 INFO view : Get token when login
+2022-10-28 13:10:38,245 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:10:38] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:11:03,462 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:11:03] "[35m[1mPOST /post_job/ HTTP/1.1[0m" 500 -
+2022-10-28 13:12:19,895 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:12:19] "[35m[1mPOST /post_job/ HTTP/1.1[0m" 500 -
+2022-10-28 13:13:00,958 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:13:00] "[31m[1mPOST /get_dept/ HTTP/1.1[0m" 401 -
+2022-10-28 13:13:37,100 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:13:37] "[31m[1mPOST /get_dept/ HTTP/1.1[0m" 401 -
+2022-10-28 13:13:42,309 INFO view : Get token when login
+2022-10-28 13:13:42,310 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:13:42] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:13:57,375 INFO view : Department added successfully
+2022-10-28 13:13:57,381 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:13:57] "POST /get_dept/ HTTP/1.1" 200 -
+2022-10-28 13:14:15,725 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:14:15] "[35m[1mPOST /post_job/ HTTP/1.1[0m" 500 -
+2022-10-28 13:15:06,998 INFO view : Department added successfully
+2022-10-28 13:15:07,001 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:15:07] "POST /get_emp/ HTTP/1.1" 200 -
+2022-10-28 13:15:15,885 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:15:15] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 13:15:25,684 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:15:25] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 13:15:31,924 INFO view : Get token when login
+2022-10-28 13:15:31,927 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:15:31] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:15:43,637 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:15:43] "[35m[1mPOST /post_onduty/ HTTP/1.1[0m" 500 -
+2022-10-28 13:16:04,987 INFO view : Job added successfully
+2022-10-28 13:16:04,990 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:16:04] "POST /post_job/ HTTP/1.1" 200 -
+2022-10-28 13:16:30,691 INFO view : On duty time added successfully
+2022-10-28 13:16:30,695 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:16:30] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-10-28 13:16:50,278 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:16:50] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 13:16:56,168 INFO view : Get token when login
+2022-10-28 13:16:56,169 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:16:56] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:17:11,686 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:17:11] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-10-28 13:18:03,198 INFO view : Get token when login
+2022-10-28 13:18:03,200 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:18:03] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:18:15,515 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:18:15] "[31m[1mPOST /post_leave/ HTTP/1.1[0m" 400 -
+2022-10-28 13:19:46,625 INFO view : On duty time added successfully
+2022-10-28 13:19:46,629 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:19:46] "POST /post_leave/ HTTP/1.1" 200 -
+2022-10-28 13:19:50,674 INFO view : On duty time added successfully
+2022-10-28 13:19:50,682 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:19:50] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 13:20:33,647 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:20:33] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 13:20:49,362 INFO view : Get token when login
+2022-10-28 13:20:49,363 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:20:49] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:21:05,575 INFO view : Get all user
+2022-10-28 13:21:05,592 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:21:05] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 13:36:36,261 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:36:36,494 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:36:38,156 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:36:38,161 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:37:00,847 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:37:00,998 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:37:02,860 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:37:02,864 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:37:24,021 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 13:37:24,021 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 13:37:24,023 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:37:25,865 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:37:25,871 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:37:28,114 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:28] "GET / HTTP/1.1" 200 -
+2022-10-28 13:37:39,551 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:39] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 13:37:39,861 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:39] "GET /view_attend/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-10-28 13:37:39,952 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:39] "GET /view_attend/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-10-28 13:37:40,420 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:40] "GET /view_attend/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-10-28 13:37:40,660 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:37:40] "[36mGET /view_attend/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-10-28 13:38:11,416 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:38:11,635 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:38:13,387 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:38:13,392 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:38:16,954 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 13:38:16,954 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 13:38:16,956 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:38:18,903 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:38:18,908 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:38:21,118 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:38:21] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 13:38:21,891 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:38:21] "[36mGET /view_attend/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-10-28 13:38:21,892 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:38:21] "[36mGET /view_attend/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-10-28 13:38:22,244 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:38:22] "[36mGET /view_attend/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-10-28 13:38:22,512 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:38:22] "[36mGET /view_attend/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-10-28 13:38:48,290 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 13:38:48,511 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:38:50,550 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:38:50,554 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:38:57,710 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 13:38:57,710 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 13:38:57,713 INFO werkzeug :  * Restarting with stat
+2022-10-28 13:38:59,426 WARNING werkzeug :  * Debugger is active!
+2022-10-28 13:38:59,431 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 13:39:51,115 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:39:51] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 13:40:20,145 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:40:20] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 13:41:02,726 INFO view : Get token when login
+2022-10-28 13:41:02,727 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:41:02] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:41:18,968 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:41:18] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 13:41:19,833 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:41:19] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 13:42:19,525 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:42:19] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 13:44:27,191 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:44:27] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 13:44:36,113 INFO view : Get token when login
+2022-10-28 13:44:36,114 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:44:36] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:44:50,422 INFO view : On duty time added successfully
+2022-10-28 13:44:50,430 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:44:50] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 13:44:56,726 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:44:56] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 13:46:15,859 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:46:15] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 13:46:22,747 INFO view : Get token when login
+2022-10-28 13:46:22,749 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:46:22] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 13:46:44,507 INFO view : Get all user
+2022-10-28 13:46:44,531 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 13:46:44] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 14:42:51,596 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:42:52,119 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:43:00,339 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:43:00,365 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:46:03,207 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:46:03,713 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:46:19,779 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:46:19,781 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:46:19,790 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:46:29,045 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:46:29,073 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:46:42,310 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:46:42] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 14:46:54,064 INFO view : Get token when login
+2022-10-28 14:46:54,073 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:46:54] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 14:47:11,614 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:47:11] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 14:48:12,432 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:48:13,081 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:48:27,797 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:48:27,798 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:48:27,808 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:48:37,432 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:48:37,487 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:48:38,436 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:48:38] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 14:52:09,230 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:52:09,842 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:52:21,222 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:52:21,223 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:52:21,232 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:52:33,564 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:52:33,565 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:52:33,574 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:52:42,570 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:52:42,598 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:52:43,031 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:52:43] "[33mGET /view_attend/1 HTTP/1.1[0m" 404 -
+2022-10-28 14:52:53,591 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:52:53] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 14:55:54,417 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:55:54,967 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:56:01,787 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:56:01,822 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:56:03,573 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:56:04,183 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:56:12,793 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:56:12,819 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:56:23,797 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:56:24,427 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:56:32,014 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:56:32,031 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:56:40,190 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:56:40,191 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:56:40,202 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:56:50,111 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:56:50,143 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:56:50,831 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:56:50] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 14:57:45,166 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 14:57:45,680 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:58:00,150 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 14:58:00,151 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 14:58:00,162 INFO werkzeug :  * Restarting with stat
+2022-10-28 14:58:05,476 WARNING werkzeug :  * Debugger is active!
+2022-10-28 14:58:05,494 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 14:58:11,892 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 14:58:11] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:01:02,669 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:01:03,301 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:01:12,230 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:01:12,251 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:01:24,700 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:01:24,701 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:01:24,708 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:01:33,699 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:01:33,718 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:01:34,349 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:01:34] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:03:05,732 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:03:06,136 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:03:20,117 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:03:20,118 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:03:20,128 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:03:29,588 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:03:29,608 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:03:29,930 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:03:29] "[31m[1mGET /view_attend/1,swara HTTP/1.1[0m" 401 -
+2022-10-28 15:03:39,611 INFO view : Get token when login
+2022-10-28 15:03:39,617 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:03:39] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:03:56,685 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:03:56] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:04:15,460 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:04:16,015 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:04:27,375 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:04:27,376 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:04:27,382 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:04:34,361 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:04:34,384 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:04:34,860 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:04:34] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:04:58,863 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:04:59,358 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:05:05,840 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:05:05,856 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:05:47,641 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:05:48,131 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:05:58,664 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:05:58,665 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:05:58,671 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:06:05,573 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:06:05,597 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:06:06,751 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:06:06] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:08:22,992 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:08:23,804 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:08:29,536 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:08:29,552 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:08:42,368 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:08:42,369 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:08:42,377 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:08:50,612 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:08:50,642 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:08:51,540 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:08:51] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:10:05,850 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:10:06,347 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:10:41,686 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:10:41,688 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:10:41,705 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:10:48,766 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:10:48,802 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:10:50,022 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:10:50] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:13:19,478 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:13:20,144 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:13:30,597 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:13:30,598 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:13:30,604 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:13:37,560 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:13:37,581 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:13:38,196 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:13:38] "[35m[1mGET /view_attend/1,swara HTTP/1.1[0m" 500 -
+2022-10-28 15:14:19,118 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:14:19,777 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:14:28,080 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:14:28,103 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:14:29,844 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:14:30,332 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:14:36,355 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:14:36,371 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:14:44,023 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:14:44,024 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:14:44,030 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:14:51,665 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:14:51,683 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:14:52,164 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:14:52] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:16:31,338 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:16:31,725 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:16:37,003 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:16:37,027 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:19:21,230 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:19:21,864 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:19:28,538 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:19:28,554 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:19:35,963 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:19:35,963 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:19:35,969 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:19:41,350 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:19:41,436 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:19:43,947 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:19:43] "[31m[1mGET /view_attend/1,swara HTTP/1.1[0m" 401 -
+2022-10-28 15:19:54,852 INFO view : Get token when login
+2022-10-28 15:19:54,857 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:19:54] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:20:18,622 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:20:18] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:21:37,277 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:21:37] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 15:21:52,563 INFO view : Get token when login
+2022-10-28 15:21:52,566 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:21:52] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:22:17,955 INFO view : On duty time added successfully
+2022-10-28 15:22:17,974 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:22:17] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:22:25,647 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:22:25] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:30:10,815 INFO view : On duty time added successfully
+2022-10-28 15:30:10,829 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:30:10] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:30:17,875 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:30:17] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:30:39,690 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:30:39] "[31m[1mPOST /post_leave/ HTTP/1.1[0m" 401 -
+2022-10-28 15:30:48,286 INFO view : Get token when login
+2022-10-28 15:30:48,290 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:30:48] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:31:11,745 INFO view : On duty time added successfully
+2022-10-28 15:31:11,757 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:31:11] "POST /post_leave/ HTTP/1.1" 200 -
+2022-10-28 15:31:19,350 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:31:19] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:33:40,886 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:33:41,516 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:33:47,329 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:33:47,345 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:33:57,725 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:33:57,726 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:33:57,733 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:34:05,166 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:34:05,185 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:34:05,705 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:34:05] "GET /view_attend/1,swara HTTP/1.1" 200 -
+2022-10-28 15:35:14,479 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:35:15,031 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:35:21,716 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:35:21,734 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:37:20,853 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:37:21,262 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:37:28,366 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:37:28,385 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:37:39,565 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:37:40,079 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:37:49,167 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:37:49,168 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:37:49,173 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:37:55,272 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:37:55,288 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:37:59,116 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:37:59] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 15:38:09,265 INFO view : Get token when login
+2022-10-28 15:38:09,269 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:38:09] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:38:32,494 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:38:32] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:39:22,812 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:39:22] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 15:39:34,509 INFO view : On duty time added successfully
+2022-10-28 15:39:34,524 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:39:34] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:39:42,274 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:39:42] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:41:11,502 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:41:11] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:41:31,700 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:41:31] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:42:01,493 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:42:01,976 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:42:08,038 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:42:08,059 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:42:17,615 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:42:17,617 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:42:17,623 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:42:26,067 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:42:26,086 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:42:26,747 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:42:26] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 15:43:10,251 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:43:10,933 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:43:23,416 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:43:23,417 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:43:23,430 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:43:31,575 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:43:31,602 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:43:32,099 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:43:32] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:44:42,793 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:44:43,277 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:44:54,908 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:44:54,909 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:44:54,916 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:45:02,014 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:45:02,033 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:45:02,559 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:45:02] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:45:42,817 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:45:42] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 15:49:13,656 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:49:13] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:49:28,112 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:49:28] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 15:49:43,252 INFO view : Get token when login
+2022-10-28 15:49:43,260 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:49:43] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:50:03,427 INFO view : Get all user
+2022-10-28 15:50:03,507 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:50:03] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 15:50:29,439 INFO view : Get all user
+2022-10-28 15:50:29,499 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:50:29] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 15:51:55,358 INFO view : Get token when login
+2022-10-28 15:51:55,362 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:51:55] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:52:34,853 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:52:34] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:53:09,996 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:53:09] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 15:53:22,175 INFO view : Get token when login
+2022-10-28 15:53:22,179 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:53:22] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:53:45,217 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:53:45] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:55:00,552 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 15:55:01,005 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:55:54,989 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 15:55:54,990 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 15:55:54,998 INFO werkzeug :  * Restarting with stat
+2022-10-28 15:56:01,842 WARNING werkzeug :  * Debugger is active!
+2022-10-28 15:56:01,881 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 15:56:03,340 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:56:03] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-10-28 15:57:01,003 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:57:01] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-10-28 15:57:08,553 INFO view : On duty time added successfully
+2022-10-28 15:57:08,681 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:57:08] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:57:23,841 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:57:23] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 15:57:34,237 INFO view : Get token when login
+2022-10-28 15:57:34,242 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:57:34] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 15:57:58,880 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:57:58] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 15:58:32,115 INFO view : On duty time added successfully
+2022-10-28 15:58:32,128 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:58:32] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 15:58:37,804 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:58:37] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 15:58:44,602 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:58:44] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 15:59:16,802 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:59:16] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 15:59:27,619 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:59:27] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 15:59:43,239 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 15:59:43] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:01:14,805 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:01:15,367 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:01:21,033 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:01:21,050 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:01:40,759 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:01:40,760 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:01:40,768 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:01:47,980 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:01:47,999 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:01:48,527 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:01:48] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:02:06,047 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:02:06] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 16:04:57,528 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:04:57,931 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:05:03,445 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:05:03,461 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:05:13,350 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:05:13,351 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:05:13,358 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:05:22,486 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:05:22,516 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:05:23,270 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:05:23] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 16:08:20,411 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:08:20,906 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:08:34,677 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:08:34,678 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:08:34,684 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:08:41,452 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:08:41,470 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:08:42,054 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:08:42] "[35m[1mGET /view_attend/1 HTTP/1.1[0m" 500 -
+2022-10-28 16:17:52,183 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:17:52,734 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:17:58,156 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:17:58,177 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:18:02,103 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:18:02,517 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:18:09,685 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:18:09,703 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:18:18,620 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:18:18,621 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:18:18,629 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:18:25,132 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:18:25,150 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:18:26,892 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:18:26] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 16:18:37,401 INFO view : Get token when login
+2022-10-28 16:18:37,404 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:18:37] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 16:18:57,309 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:18:57] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 16:20:16,831 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:20:16] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:22:02,131 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:22:02,600 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:22:36,529 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:22:36,530 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:22:36,537 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:22:45,574 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:22:45,597 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:22:46,108 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:22:46] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:26:40,617 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:26:40] "[31m[1mPOST /get_dept/ HTTP/1.1[0m" 401 -
+2022-10-28 16:26:45,414 INFO view : Get token when login
+2022-10-28 16:26:45,417 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:26:45] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 16:27:07,507 INFO view : Department added successfully
+2022-10-28 16:27:07,524 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:27:07] "POST /get_dept/ HTTP/1.1" 200 -
+2022-10-28 16:35:56,529 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:35:56] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 16:36:24,121 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:36:24] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:39:17,600 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:39:18,117 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:39:30,493 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:39:30,494 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:39:30,500 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:39:38,557 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:39:38,579 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:39:39,913 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:39:39] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 16:40:00,185 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:40:00,607 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:40:07,047 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:40:07,074 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:40:19,124 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:40:19,125 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:40:19,132 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:40:27,292 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:40:27,312 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:40:27,929 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:40:27] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:42:27,050 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:42:27,576 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:42:38,786 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:42:38,787 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:42:38,793 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:42:47,088 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:42:47,106 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:42:47,439 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:42:47] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 16:43:08,639 INFO view : Get token when login
+2022-10-28 16:43:08,648 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:43:08] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 16:43:28,883 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:43:28] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:44:15,325 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:44:15] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 16:44:30,432 INFO view : On duty time added successfully
+2022-10-28 16:44:30,444 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:44:30] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 16:44:38,228 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:44:38] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:50:13,282 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:50:14,040 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:50:23,093 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:50:23,126 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:51:51,116 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:51:51,668 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:52:06,816 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:52:06,817 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:52:06,826 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:52:15,881 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:52:15,908 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:52:16,516 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:52:16] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 16:53:19,945 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:53:20,553 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:53:31,724 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:53:31,726 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:53:31,731 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:53:38,803 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:53:38,825 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:53:39,646 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:53:39] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 16:55:34,889 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:55:35,362 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:55:40,565 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:55:40,582 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:55:48,350 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:55:48,351 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:55:48,356 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:55:58,224 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:55:58,243 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:55:59,020 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:55:59] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 16:56:27,710 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:56:28,297 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:56:39,061 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:56:39,062 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:56:39,068 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:56:46,491 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:56:46,510 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:56:47,160 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:56:47] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 16:59:09,183 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 16:59:09,893 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:59:21,042 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 16:59:21,043 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 16:59:21,050 INFO werkzeug :  * Restarting with stat
+2022-10-28 16:59:29,620 WARNING werkzeug :  * Debugger is active!
+2022-10-28 16:59:29,643 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 16:59:30,082 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:59:30] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 16:59:39,478 INFO view : Get token when login
+2022-10-28 16:59:39,483 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 16:59:39] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:00:00,787 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:00:00] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 17:00:54,734 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:00:55,271 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:01:04,896 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:01:04,897 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:01:04,903 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:01:12,761 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:01:12,795 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:01:13,607 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:01:13] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:06:14,057 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:06:15,008 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:06:24,075 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:06:24,101 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:06:57,936 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:06:58,419 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:07:09,932 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:07:09,933 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:07:09,939 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:07:18,716 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:07:18,750 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:07:19,645 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:07:19] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:07:31,781 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:07:31] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:09:57,959 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:09:58,401 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:10:04,199 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:10:04,214 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:10:51,502 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:10:52,028 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:10:57,891 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:10:57,909 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:11:27,194 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:11:27,195 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:11:27,201 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:11:34,196 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:11:34,215 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:11:34,799 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:11:34] "[35m[1mGET /view_attend/2 HTTP/1.1[0m" 500 -
+2022-10-28 17:12:14,679 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:12:15,207 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:12:21,648 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:12:21,671 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:12:31,137 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:12:31,138 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:12:31,146 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:12:35,992 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:12:36,008 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:13:02,834 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:13:02] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:13:17,393 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:13:17] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:13:31,260 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:13:31] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:14:02,043 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:14:02,541 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:14:07,558 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:14:07,574 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:14:33,777 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:14:33,777 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:14:33,783 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:14:41,576 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:14:41,597 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:14:41,995 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:14:41] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 17:15:01,193 INFO view : Get token when login
+2022-10-28 17:15:01,197 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:15:01] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:15:21,609 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:15:21] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:16:26,312 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:16:26,722 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:16:31,876 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:16:31,891 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:16:47,683 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:16:47,684 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:16:47,690 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:16:54,389 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:16:54,407 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:16:55,051 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:16:55] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:17:32,010 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:17:32] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 17:32:04,453 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:32:04] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-10-28 17:32:14,108 INFO view : Get token when login
+2022-10-28 17:32:14,111 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:32:14] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:32:37,605 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:32:37] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 17:36:32,066 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:36:32,067 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:36:32,073 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:36:39,733 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:36:39,753 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:36:50,036 INFO view : Get token when login
+2022-10-28 17:36:50,040 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:36:50] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:37:42,812 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:37:42] "POST /post_leave/ HTTP/1.1" 200 -
+2022-10-28 17:38:13,484 INFO view : On duty time added successfully
+2022-10-28 17:38:13,637 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:38:13] "POST /post_leave/ HTTP/1.1" 200 -
+2022-10-28 17:38:39,283 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:38:39] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 17:39:18,132 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:39:18] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:41:59,094 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:41:59,647 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:42:08,440 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 17:42:08,441 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 17:42:08,449 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:42:29,566 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:42:29,786 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:42:35,118 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:42:35] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:43:54,934 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:43:54] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:46:07,936 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:46:07] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-10-28 17:46:21,156 INFO view : Get token when login
+2022-10-28 17:46:21,161 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:46:21] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:46:43,174 INFO view : On duty time added successfully
+2022-10-28 17:46:43,184 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:46:43] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 17:46:50,381 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:46:50] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:47:32,259 INFO view : On duty time added successfully
+2022-10-28 17:47:32,268 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:47:32] "POST /post_attend/ HTTP/1.1" 200 -
+2022-10-28 17:47:39,638 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:47:39] "[31m[1mGET /view_attend/2 HTTP/1.1[0m" 401 -
+2022-10-28 17:47:47,712 INFO view : Get token when login
+2022-10-28 17:47:47,716 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:47:47] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 17:48:04,302 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 17:48:04] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 17:51:56,085 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:51:56,571 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:52:01,964 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:52:01,979 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 17:52:35,113 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 17:52:35,529 INFO werkzeug :  * Restarting with stat
+2022-10-28 17:52:40,685 WARNING werkzeug :  * Debugger is active!
+2022-10-28 17:52:40,701 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 18:13:55,827 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 18:13:56,459 INFO werkzeug :  * Restarting with stat
+2022-10-28 18:14:02,329 WARNING werkzeug :  * Debugger is active!
+2022-10-28 18:14:02,349 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 18:14:13,437 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 18:14:13,438 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 18:14:13,445 INFO werkzeug :  * Restarting with stat
+2022-10-28 18:14:22,451 WARNING werkzeug :  * Debugger is active!
+2022-10-28 18:14:22,493 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 18:14:25,130 INFO view : Get token when login
+2022-10-28 18:14:25,135 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:14:25] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 18:14:48,094 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:14:48] "GET /view_attend/2 HTTP/1.1" 200 -
+2022-10-28 18:15:11,332 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:15:11] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-10-28 18:25:50,481 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:25:50] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 18:26:00,339 INFO view : Get token when login
+2022-10-28 18:26:00,342 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:26:00] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 18:26:20,916 INFO view : Get all user
+2022-10-28 18:26:21,069 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 18:26:21] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:15:51,797 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 19:15:52,428 INFO werkzeug :  * Restarting with stat
+2022-10-28 19:15:58,902 WARNING werkzeug :  * Debugger is active!
+2022-10-28 19:15:58,921 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 19:16:06,522 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\view.py', reloading
+2022-10-28 19:16:07,396 INFO werkzeug :  * Restarting with stat
+2022-10-28 19:16:15,493 WARNING werkzeug :  * Debugger is active!
+2022-10-28 19:16:15,518 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 19:17:46,846 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:17:46] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-10-28 19:17:59,414 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2022-10-28 19:17:59,415 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-10-28 19:17:59,421 INFO werkzeug :  * Restarting with stat
+2022-10-28 19:18:05,884 WARNING werkzeug :  * Debugger is active!
+2022-10-28 19:18:05,900 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 19:18:12,948 INFO view : Get token when login
+2022-10-28 19:18:12,953 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:18:12] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 19:18:42,881 INFO view : Get all user
+2022-10-28 19:18:43,100 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:18:43] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:21:02,782 INFO view : Get all user
+2022-10-28 19:21:02,845 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:21:02] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:22:17,279 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:22:17] "POST /post_job/ HTTP/1.1" 200 -
+2022-10-28 19:23:09,524 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:23:09] "POST /post_job/ HTTP/1.1" 200 -
+2022-10-28 19:23:20,763 INFO view : Job added successfully
+2022-10-28 19:23:20,780 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:23:20] "POST /post_job/ HTTP/1.1" 200 -
+2022-10-28 19:23:34,704 INFO view : Get all user
+2022-10-28 19:23:34,773 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:23:34] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:27:24,818 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:27:24] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 19:27:32,235 INFO view : Get token when login
+2022-10-28 19:27:32,238 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:27:32] "POST /emp_login/ HTTP/1.1" 200 -
+2022-10-28 19:27:50,198 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:27:50] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 19:27:58,663 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:27:58] "[31m[1mPOST /post_onduty/ HTTP/1.1[0m" 401 -
+2022-10-28 19:28:21,707 INFO view : On duty time added successfully
+2022-10-28 19:28:21,730 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:28:21] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-10-28 19:28:31,191 INFO view : Get all user
+2022-10-28 19:28:31,270 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:28:31] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:28:39,928 INFO view : Get all user
+2022-10-28 19:28:39,994 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:28:39] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:28:48,322 INFO view : Get all user
+2022-10-28 19:28:48,386 INFO werkzeug : 127.0.0.1 - - [28/Oct/2022 19:28:48] "GET /get_emp/ HTTP/1.1" 200 -
+2022-10-28 19:30:41,449 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\employee.py', reloading
+2022-10-28 19:30:41,907 INFO werkzeug :  * Restarting with stat
+2022-10-28 19:30:49,262 WARNING werkzeug :  * Debugger is active!
+2022-10-28 19:30:49,278 INFO werkzeug :  * Debugger PIN: 772-106-599
+2022-10-28 19:31:01,042 INFO werkzeug :  * Detected change in 'D:\\new_app\\flask_app\\models\\employee.py', reloading
+2022-10-28 19:31:01,496 INFO werkzeug :  * Restarting with stat
+2022-10-28 19:31:09,143 WARNING werkzeug :  * Debugger is active!
+2022-10-28 19:31:09,226 INFO werkzeug :  * Debugger PIN: 772-106-599
