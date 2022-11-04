@@ -29,6 +29,7 @@ from migrate_cmd import migrate
 from migrate_cmd import redis_cache
 from constants import EMPLOYEE_LIST
 from constants import DEPART_LIST
+from constants import LEAVE_LIST
 import time
 
 from models.employee import Employee
@@ -80,7 +81,7 @@ simple_app = Celery('tasks', backend='redis://localhost:6379/0',
 @app.route('/simple_start_task')
 def call_method():
     app.logger.info("Invoking Method ")
-    r = simple_app.send_task('tasks.get_emp_all', kwargs={'x': 1, 'y': 2})
+    r = simple_app.send_task('tasks.longtime_add', kwargs={'x': 1, 'y': 2})
     app.logger.info(r.backend)
     print(r.backend)
     return r.id
@@ -473,11 +474,11 @@ def get_dept(id):
 
 
 @department_blueprint.route('/get_all_dept/', methods=['GET'])
-@jwt_required()
+# @jwt_required()
 def get_all_dept():
     """Get List of Department"""
-    current_user = get_jwt_identity()
-    access_token = create_access_token(identity=current_user)
+    # current_user = get_jwt_identity()
+    # access_token = create_access_token(identity=current_user)
     if redis_cache.exists(DEPART_LIST):
         print("Getting Dept Data from redis Cache")
         dept = redis_cache.get(DEPART_LIST)
@@ -686,10 +687,23 @@ def get_leave_all():
     """Get List of job"""
     current_user = get_jwt_identity()
     access_token = create_access_token(identity=current_user)
-    all_job = Leave.query.all()
+    if redis_cache.exists(LEAVE_LIST):
+        print("Getting Leave Data from redis Cache")
+        leave = redis_cache.get(LEAVE_LIST)
+        leave = literal_eval(leave.decode('utf8'))
+        print("redis")
+        app.logger.info("Get all leave")
+        return jsonify({'Leaves': leave})
+    else:
+        print("Getting emp Data from mysql")
+        leave = Leave.query.all()
+        leave = leaves_schema.dump(leave)
+        leaves = str(leave)
+        redis_cache.set(LEAVE_LIST, leaves)
+        print("leave cache set")
+        app.logger.info("Leaves : %s", leaves)
+        return jsonify({'Leaves': leaves})
 
-    app.logger.info("Get all role ")
-    return leaves_schema.dump(all_job)
 
 
 @attendance_blueprint.route('/get_attend/', methods=['GET'])

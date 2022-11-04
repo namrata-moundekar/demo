@@ -3662,3 +3662,77 @@
 2022-11-04 11:30:04,674 INFO werkzeug :  * Restarting with stat
 2022-11-04 11:30:05,263 WARNING werkzeug :  * Debugger is active!
 2022-11-04 11:30:05,263 INFO werkzeug :  * Debugger PIN: 267-255-536
+2022-11-04 12:50:01,222 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-04 12:50:01,222 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-04 12:50:01,223 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:50:01,819 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:50:01,927 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:50:38,643 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:50:38] "GET / HTTP/1.1" 200 -
+2022-11-04 12:50:46,052 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:50:46] "[31m[1mGET /get_emp/ HTTP/1.1[0m" 401 -
+2022-11-04 12:51:10,839 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 12:51:11,071 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:51:12,657 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:51:12,658 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:51:28,837 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:51:28] "[33mGET /emp_search HTTP/1.1[0m" 404 -
+2022-11-04 12:51:39,136 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:51:39] "[33mGET /emp/search HTTP/1.1[0m" 404 -
+2022-11-04 12:51:47,912 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:51:47] "[31m[1mGET /emp/search/ HTTP/1.1[0m" 405 -
+2022-11-04 12:52:51,644 INFO view : Get all emp
+2022-11-04 12:52:51,645 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:52:51] "POST /emp/search/ HTTP/1.1" 200 -
+2022-11-04 12:52:55,712 INFO view : Get all emp
+2022-11-04 12:52:55,712 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:52:55] "POST /emp/search/ HTTP/1.1" 200 -
+2022-11-04 12:52:57,378 INFO view : Get all emp
+2022-11-04 12:52:57,379 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:52:57] "POST /emp/search/ HTTP/1.1" 200 -
+2022-11-04 12:52:59,108 INFO view : Get all emp
+2022-11-04 12:52:59,109 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:52:59] "POST /emp/search/ HTTP/1.1" 200 -
+2022-11-04 12:53:18,004 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 12:53:18,325 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:53:19,748 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:53:19,749 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:54:39,866 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 12:54:40,168 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:54:41,397 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:54:41,398 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:54:53,657 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-04 12:54:53,657 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-04 12:54:53,658 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:54:54,354 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:54:54,355 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:54:59,112 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:54:59] "[31m[1mGET /emp/search/ HTTP/1.1[0m" 405 -
+2022-11-04 12:55:28,147 INFO view : Get all dept
+2022-11-04 12:55:28,148 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:55:28] "GET /get_all_dept/ HTTP/1.1" 200 -
+2022-11-04 12:55:33,029 INFO view : Get all dept
+2022-11-04 12:55:33,029 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:55:33] "GET /get_all_dept/ HTTP/1.1" 200 -
+2022-11-04 12:55:36,144 INFO view : Get all dept
+2022-11-04 12:55:36,144 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:55:36] "GET /get_all_dept/ HTTP/1.1" 200 -
+2022-11-04 12:55:37,900 INFO view : Get all dept
+2022-11-04 12:55:37,900 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 12:55:37] "GET /get_all_dept/ HTTP/1.1" 200 -
+2022-11-04 12:58:02,638 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/constants.py', reloading
+2022-11-04 12:58:03,013 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:58:04,172 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:58:04,173 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:58:44,611 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 12:58:45,057 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:58:46,557 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:58:46,558 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 12:58:57,686 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 12:58:57,994 INFO werkzeug :  * Restarting with stat
+2022-11-04 12:58:59,992 WARNING werkzeug :  * Debugger is active!
+2022-11-04 12:58:59,993 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:01:48,827 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 13:01:49,008 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:01:50,298 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:01:50,299 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:02:23,660 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 13:02:23,998 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:02:25,384 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:02:25,384 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:03:04,793 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 13:03:05,098 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:03:06,190 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:03:06,191 INFO werkzeug :  * Debugger PIN: 150-147-608
