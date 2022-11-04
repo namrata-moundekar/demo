@@ -265,24 +265,14 @@ def emp_login():
             return json.dumps({"ERROR": "Invalid name or password"})
 
 
-# @employee_blueprint.route('/get_emp/', methods = ['GET'])
-# # @jwt_required()
-# def get_emp_all():
-#     """  Get List of emp  """
-#     # current_user = get_jwt_identity()
-#     # access_token = create_access_token(identity = current_user)
-#     all_emp = Employee.query.all()
-#     print("all_user after",all_emp)
-#     app.logger.info("Get all user")
-#     return employees_schema.dump(all_emp)
 
 @employee_blueprint.route('/get_emp/', methods = ['GET'])
-# @jwt_required()
+@jwt_required()
 @simple_app.task
 def get_emp_all():
     """  Get List of emp  """
-    # current_user = get_jwt_identity()
-    # access_token = create_access_token(identity=current_user)
+    current_user = get_jwt_identity()
+    access_token = create_access_token(identity=current_user)
     if redis_cache.exists(EMPLOYEE_LIST):
         print("Getting Employee Data from redis Cache")
         emp = redis_cache.get(EMPLOYEE_LIST)
@@ -403,6 +393,37 @@ def delete_emp(id):
         app.logger.info("Employee deleted successfully")
         return json.dumps({"SUCCESS": f"Record ({id}) Removed Successfully...! 200"})
     return json.dumps({"ERROR": "Employee with given id not present so cannot Delete.."})
+
+@attendance_blueprint.route('/view_attend/<int:id>', methods=['GET'])
+@jwt_required()
+def view_attendance(id):
+    """Get List of attendances of particular employee"""
+    current_user = get_jwt_identity()
+    access_token = create_access_token(identity=current_user)
+
+    role = Attendance.query.filter_by(employee_id=id).all()
+    leave = Leave.query.filter_by(employee_id=id).all()
+    # print("attendance",role.__dict__)
+    # print("leave",leave.__dict__)
+    for i in role:
+        for j in leave:
+            if i.date == j.leave_date:
+
+                if i.status == "present" or i.status == "leave":
+                    i.status = "leave"
+                    db.session.commit()
+
+        if i.total_task < 9:
+            i.status = "half day"
+
+        born = datetime.datetime.strptime(str(i.date), '%Y-%m-%d %H:%M:%S').weekday()
+        if calendar.day_name[born] == "Saturday" or calendar.day_name[born] == "Sunday":
+            i.status = "weekend"
+
+        db.session.commit()
+    return attendances_schema.dump(role)
+
+
 
 
 # ##########################    DEPARTMENT START HERE     #############################################
@@ -618,9 +639,7 @@ def add_attend():
     return json.dumps({"SUCCESS": f"Record ({attendc.id}) Added Successfully...!  200"})
 
 
-# return json.dumps({"ERROR": "Required fields notleave present"})
-# else:
-# return json.dumps({"ERROR" : "EMPTY BODY, ALL FIELDS REQUIRED"})
+
 
 
 @attendance_blueprint.route('/attend_info/<int:id>', methods=['GET'])
@@ -686,211 +705,8 @@ def get_attend_all():
     return attendances_schema.dump(allattend)
 
 
-@attendance_blueprint.route('/view_attend/<int:id>', methods=['GET'])
-@jwt_required()
-def view_attendance(id):
-    """Get List of attendances of particular employee"""
-    current_user = get_jwt_identity()
-    access_token = create_access_token(identity=current_user)
-
-    role = Attendance.query.filter_by(employee_id=id).all()
-    leave = Leave.query.filter_by(employee_id=id).all()
-    # print("attendance",role.__dict__)
-    # print("leave",leave.__dict__)
-    for i in role:
-        for j in leave:
-            if i.date == j.leave_date:
-
-                if i.status == "present" or i.status == "leave":
-                    i.status = "leave"
-                    db.session.commit()
-
-        if i.total_task < 9:
-            i.status = "half day"
-
-        born = datetime.datetime.strptime(str(i.date), '%Y-%m-%d %H:%M:%S').weekday()
-        if calendar.day_name[born] == "Saturday" or calendar.day_name[born] == "Sunday":
-            i.status = "weekend"
-
-        db.session.commit()
-    return attendances_schema.dump(role)
 
 
-# def findDay(date):
-#     born = datetime.datetime.strptime(date, '%d %m %Y').weekday()
-#     return (calendar.day_name[born])
-
-# # Driver program
-# date = '03 02 2019'
-# print(findDay(date))
-
-
-# @role_blueprint.route('/role_update/<int:id>',methods=['PUT'])
-# @jwt_required()
-# def update_role(id):
-#     """ UPDATE role POST """
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity = current_user)
-#     role = Role.query.filter_by(id=id).first()
-#     if role:
-#         data = request.get_json()
-#         if data:
-#             if data.get('name') and data.get('description') and data.get('grade_id') :
-#                 role.name = data.get('name')
-#                 role.description = data.get('description')
-#                 role.grade_id = data.get('grade_id')
-
-#                 db.session.commit()
-#                 app.logger.info("role updated successfully")
-#                 return json.dumps({"SUCCESS" : f"Record ({role.id}) Updated Successfully...!  200"})
-#         return json.dumps({"ERROR": "Required fields not present"})
-#     return json.dumps({"ERROR": "role with given id not present so cannot update.."})
-
-
-# @role_blueprint.route('/role/search/', methods=['POST'])
-# @jwt_required()
-# @cache.cached(timeout=30)
-# def search_role():
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity=current_user)
-#     data = request.get_json()
-
-#     if data.get('name'):
-#             search_role = data.get('name')
-#             role = Role.query.filter_by(name=search_role).all()
-
-#     if not role:
-#         return json.dumps({"ERROR": "Role not present"})
-
-#     return roles_schema.dump(role)
-
-
-# @role_blueprint.route('/role/<int:id>',methods=['DELETE'])
-# def delete_role(id):
-#     """ DELETE Role POST """
-
-#     role = Role.query.filter_by(id=id).first()
-#     if role:
-#         db.session.delete(role)
-#         db.session.commit()
-#         app.logger.info("Role deleted successfully")
-#         return json.dumps({"SUCCESS": f"Record ({id}) Removed Successfully...! 200"})
-#     return json.dumps({"ERROR": "Role with given id not present so cannot Delete.."})
-
-
-# ##########################################  Grade START HERE  ########################################################
-
-
-# @grade_blueprint.route('/post_grade/', methods = ['POST'])
-# @jwt_required()
-# def add_grade():
-#     """Post List of grade """
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity = current_user)
-#     data = request.get_json()  # will retrive that json
-#     if data:
-#         if data["id"]:
-#             grade = Grade.query.filter_by(id=data["id"]).first()
-#             if grade:
-#                 return json.dumps({"ERROR" : "Duplicate grade-->401"})
-#             grde = Grade(id=data["id"],paygrade=data["paygrade"],amount=data["amount"])
-#             db.session.add(grde)
-#             db.session.commit()
-#             app.logger.info("Grade added successfully")
-#             return json.dumps({"SUCCESS" : f"Record ({grde.id}) Added Successfully...!  200"})
-#         return json.dumps({"ERROR": "Required fields not present"})
-#     else:
-#         return json.dumps({"ERROR" : "EMPTY BODY, ALL FIELDS REQUIRED"})
-
-
-# @grade_blueprint.route('/grade_info/<int:id>',methods=['GET'])
-# @cache.cached(timeout=30)
-# @jwt_required()
-# def get_grade(id):
-#     """grade detail view."""
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity=current_user)
-#     grade = Grade.query.filter_by(id=id).first()
-#     if grade:
-#         json_dict = {"grade_ID": grade.id,
-#                       "paygrade": grade.paygrade,
-#                       "amount": grade.amount,
-#                       }
-#         app.logger.info("Get grade with particular id.")
-#         return grade_schema.dump(grade)
-#     else:
-#         return json.dumps({"ERROR": f"No grade with Given Id {id}"})
-
-
-# @grade_blueprint.route('/get_grade/',methods=['GET'])
-# @cache.cached(timeout=30)
-# @jwt_required()
-# def get_grade_all():
-#     """Get List of Grade"""
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity=current_user)
-#     all_grade= Grade.query.all()
-
-#     app.logger.info("Get all Grade ")
-#     return grades_schema.dump(all_grade) 
-
-
-# @grade_blueprint.route('/grade_update/<int:id>',methods=['PUT'])
-# @jwt_required()
-# def update_grade(id):
-#     """ UPDATE grade POST """
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity=current_user)
-#     grade = Grade.query.filter_by(id=id).first()
-#     if grade:
-#         data = request.get_json()
-#         if data:
-#             if data.get('paygrade') and data.get('amount'):
-#                 grade.paygrade = data.get('paygrade')
-#                 grade.amount = data.get('amount')
-#                 db.session.commit()
-#                 app.logger.info("grade updated successfully")
-#                 return json.dumps({"SUCCESS" : f"Record ({grade.id}) Updated Successfully...!  200"})
-#         return json.dumps({"ERROR": "Required fields not present"})
-#     return json.dumps({"ERROR": "grade with given id not present so cannot update.."})
-
-
-# @grade_blueprint.route('/grade/search/', methods=['POST'])
-# @jwt_required()
-# @cache.cached(timeout=30)
-# def search_grade():
-#     current_user = get_jwt_identity()
-#     access_token = create_access_token(identity=current_user)
-#     data = request.get_json()
-
-#     if data.get('paygrade'):
-#             search_paygrade = data.get('paygrade')
-#             grade = Grade.query.filter_by(paygrade=search_paygrade).all()
-
-#     if data.get('amount'):
-#             search_amount = data.get('amount')
-#             grade = Grade.query.filter_by(amount=search_amount).all()
-
-#     if not grade:
-#         return json.dumps({"ERROR": "Grade not present"})
-
-#     return grades_schema.dump(grade)
-
-
-# @grade_blueprint.route('/grade/<int:id>',methods=['DELETE'])
-# def delete_grade(id):
-#     """ DELETE grade POST """
-
-#     grade = Grade.query.filter_by(id=id).first()
-#     if grade:
-#         db.session.delete(grade)
-#         db.session.commit()
-#         app.logger.info("Grade deleted successfully")
-#         return json.dumps({"SUCCESS": f"Record ({id}) Removed Successfully...! 200"})
-#     return json.dumps({"ERROR": "Grade with given id not present so cannot Delete.."})
-
-
-# ################################    End of Comment API Endpoints      #########################
 
 
 # #########################################  Blueprint register routes  ########################################################
