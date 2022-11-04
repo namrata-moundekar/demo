@@ -226,8 +226,18 @@
              "type": "string",
              "format": "string"
           },
-          
-                   
+          "gender": {
+            "type": "string",
+            "format": "string"
+          },
+           "age": {
+             "type": "number",
+             "format": "number"
+          },
+           "contact_no": {
+             "type": "number",
+             "format": "number"
+          }
         }
       },
       "employeeRequest": {
@@ -253,6 +263,18 @@
              "type": "string",
              "format": "string"
           },
+          "gender": {
+            "type": "string",
+            "format": "string"
+          },
+           "age": {
+             "type": "number",
+             "format": "number"
+          },
+           "contact_no": {
+             "type": "number",
+             "format": "number"
+          }
            
         }
       },
