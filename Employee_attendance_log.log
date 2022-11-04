@@ -3736,3 +3736,136 @@
 2022-11-04 13:03:05,098 INFO werkzeug :  * Restarting with stat
 2022-11-04 13:03:06,190 WARNING werkzeug :  * Debugger is active!
 2022-11-04 13:03:06,191 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:09:04,778 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:09:04] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-11-04 13:09:09,971 INFO view : Get token when login
+2022-11-04 13:09:09,973 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:09:09] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:09:23,202 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:09:23] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:21:51,745 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:21:51] "[31m[1mPOST /get_dept/ HTTP/1.1[0m" 401 -
+2022-11-04 13:21:56,499 INFO view : Get token when login
+2022-11-04 13:21:56,500 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:21:56] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:22:17,035 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:22:17] "POST /get_dept/ HTTP/1.1" 200 -
+2022-11-04 13:22:44,712 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:22:44] "[35m[1mPOST /post_job/ HTTP/1.1[0m" 500 -
+2022-11-04 13:24:22,248 INFO view : Job added successfully
+2022-11-04 13:24:22,253 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:24:22] "POST /post_job/ HTTP/1.1" 200 -
+2022-11-04 13:32:46,071 INFO view : On duty time added successfully
+2022-11-04 13:32:46,074 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:32:46] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-11-04 13:35:19,062 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:35:19] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-11-04 13:35:25,705 INFO view : On duty time added successfully
+2022-11-04 13:35:25,709 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:35:25] "POST /post_onduty/ HTTP/1.1" 200 -
+2022-11-04 13:36:32,835 INFO view : On duty time added successfully
+2022-11-04 13:36:32,838 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:36:32] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 13:36:47,054 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:36:47] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 13:36:56,360 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:36:56] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-11-04 13:37:01,508 INFO view : Get token when login
+2022-11-04 13:37:01,509 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:37:01] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:37:30,560 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:37:30] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:43:25,746 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:43:25] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-11-04 13:43:30,865 INFO view : Get token when login
+2022-11-04 13:43:30,866 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:43:30] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:43:55,278 INFO view : On duty time added successfully
+2022-11-04 13:43:55,282 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:43:55] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 13:43:59,212 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:43:59] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:44:40,094 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:44:40] "[35m[1mPOST /post_attend/ HTTP/1.1[0m" 500 -
+2022-11-04 13:45:00,710 INFO view : On duty time added successfully
+2022-11-04 13:45:00,712 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:45:00] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 13:45:05,122 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:45:05] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:45:18,372 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:45:18] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:45:55,404 INFO view : On duty time added successfully
+2022-11-04 13:45:55,406 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:45:55] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 13:45:58,811 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:45:58] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:47:25,739 INFO view : Leaves : [{'job_title_id': 1, 'attendances': [{'date': '2022-11-01T23:59:59', 'total_task': 9, 'id': 1, 'status': 'present', 'employee_id': 1}, {'date': '2022-11-02T23:59:59', 'total_task': 0, 'id': 2, 'status': 'half day', 'employee_id': 1}, {'date': '2022-11-03T23:59:59', 'total_task': 0, 'id': 3, 'status': 'half day', 'employee_id': 1}], 'id': 1, 'employee_id': 1, 'leave_date': '2022-11-02T23:59:59'}]
+2022-11-04 13:47:25,740 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:47:25] "GET /get_leave/ HTTP/1.1" 200 -
+2022-11-04 13:48:45,905 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:48:45] "[31m[1mGET /post_attend/ HTTP/1.1[0m" 405 -
+2022-11-04 13:49:04,017 INFO view : On duty time added successfully
+2022-11-04 13:49:04,021 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:49:04] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 13:49:11,998 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:49:11] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 13:49:47,281 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:49:47] "[31m[1mGET /get_leave/ HTTP/1.1[0m" 401 -
+2022-11-04 13:50:14,990 INFO view : Get token when login
+2022-11-04 13:50:14,991 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:50:14] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:50:25,791 INFO view : Get all leave
+2022-11-04 13:50:25,791 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:50:25] "GET /get_leave/ HTTP/1.1" 200 -
+2022-11-04 13:53:38,618 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 13:53:38,773 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:53:39,554 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:53:39,554 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:53:44,604 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 13:53:44,915 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:53:46,218 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:53:46,219 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:54:10,757 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-04 13:54:10,757 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-04 13:54:10,758 INFO werkzeug :  * Restarting with stat
+2022-11-04 13:54:11,383 WARNING werkzeug :  * Debugger is active!
+2022-11-04 13:54:11,383 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 13:54:15,886 INFO view : Get all leave
+2022-11-04 13:54:15,888 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:54:15] "GET /get_leave/ HTTP/1.1" 200 -
+2022-11-04 13:56:29,821 INFO view : On duty time added successfully
+2022-11-04 13:56:29,826 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:56:29] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 13:58:11,022 INFO view : On duty time added successfully
+2022-11-04 13:58:11,025 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:58:11] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 13:58:25,914 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:58:25] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-11-04 13:58:31,673 INFO view : Get token when login
+2022-11-04 13:58:31,677 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:58:31] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 13:58:52,405 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 13:58:52] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:00:04,065 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:00:04] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:01:35,793 INFO view : On duty time added successfully
+2022-11-04 14:01:35,796 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:01:35] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 14:02:22,205 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:02:22] "[31m[1mPOST /post_attend/ HTTP/1.1[0m" 401 -
+2022-11-04 14:02:27,152 INFO view : Get token when login
+2022-11-04 14:02:27,153 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:02:27] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 14:02:45,477 INFO view : On duty time added successfully
+2022-11-04 14:02:45,481 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:02:45] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 14:02:51,473 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:02:51] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:08:01,858 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 14:08:02,056 INFO werkzeug :  * Restarting with stat
+2022-11-04 14:08:02,787 WARNING werkzeug :  * Debugger is active!
+2022-11-04 14:08:02,788 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 14:08:25,610 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:08:25] "[31m[1mPOST /post_leave/ HTTP/1.1[0m" 401 -
+2022-11-04 14:08:30,060 INFO view : Get token when login
+2022-11-04 14:08:30,063 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:08:30] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 14:08:55,401 INFO view : On duty time added successfully
+2022-11-04 14:08:55,404 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:08:55] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 14:09:33,044 INFO view : On duty time added successfully
+2022-11-04 14:09:33,048 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:09:33] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 14:09:38,301 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:09:38] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:10:38,931 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 14:10:39,089 INFO werkzeug :  * Restarting with stat
+2022-11-04 14:10:40,221 WARNING werkzeug :  * Debugger is active!
+2022-11-04 14:10:40,221 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 14:10:44,836 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-04 14:10:44,836 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-04 14:10:44,837 INFO werkzeug :  * Restarting with stat
+2022-11-04 14:10:45,534 WARNING werkzeug :  * Debugger is active!
+2022-11-04 14:10:45,534 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 14:10:58,205 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:10:58] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:12:17,961 INFO view : On duty time added successfully
+2022-11-04 14:12:17,963 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:12:17] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 14:12:40,806 INFO view : On duty time added successfully
+2022-11-04 14:12:40,808 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:12:40] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 14:13:02,521 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:13:02] "GET /view_attend/1 HTTP/1.1" 200 -
+2022-11-04 14:15:13,078 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/view.py', reloading
+2022-11-04 14:15:13,451 INFO werkzeug :  * Restarting with stat
+2022-11-04 14:15:14,606 WARNING werkzeug :  * Debugger is active!
+2022-11-04 14:15:14,607 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 14:15:50,821 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-04 14:15:50,821 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-04 14:15:50,822 INFO werkzeug :  * Restarting with stat
+2022-11-04 14:15:51,466 WARNING werkzeug :  * Debugger is active!
+2022-11-04 14:15:51,466 INFO werkzeug :  * Debugger PIN: 150-147-608
+2022-11-04 14:16:21,997 INFO view : On duty time added successfully
+2022-11-04 14:16:22,003 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:16:22] "POST /post_attend/ HTTP/1.1" 200 -
+2022-11-04 14:16:34,884 INFO view : On duty time added successfully
+2022-11-04 14:16:34,887 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:16:34] "POST /post_leave/ HTTP/1.1" 200 -
+2022-11-04 14:16:39,140 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:16:39] "[31m[1mGET /view_attend/1 HTTP/1.1[0m" 401 -
+2022-11-04 14:16:43,413 INFO view : Get token when login
+2022-11-04 14:16:43,414 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:16:43] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-04 14:17:00,206 INFO werkzeug : 127.0.0.1 - - [04/Nov/2022 14:17:00] "GET /view_attend/1 HTTP/1.1" 200 -

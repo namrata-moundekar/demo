@@ -410,12 +410,13 @@ def view_attendance(id):
         for j in leave:
             if i.date == j.leave_date:
 
-                if i.status == "present" or i.status == "leave":
+                if i.status == "leave" and i.total_task == "0":
                     i.status = "leave"
                     db.session.commit()
 
         if i.total_task < 9:
-            i.status = "half day"
+            if not i.total_task == 0:
+                i.status = "half day"
 
         born = datetime.datetime.strptime(str(i.date), '%Y-%m-%d %H:%M:%S').weekday()
         if calendar.day_name[born] == "Saturday" or calendar.day_name[born] == "Sunday":
