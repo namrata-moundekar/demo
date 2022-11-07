@@ -26,7 +26,7 @@ simple_app = Celery('tasks', backend='redis://localhost:6379/0',
                     broker='amqp://namrata:namrata.31@localhost/neosoft_vhost')
 
 #######################     Logging Starts   ######################################
-app = logging.basicConfig(filename='Employee_attendance_log.log', level=logging.INFO,
+logging.basicConfig(filename='Employee_attendance_log.log', level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(name)s : %(message)s')
 
 ######################    CELERY AND RABBITMQ    ########################################
@@ -87,7 +87,7 @@ def emp_register():
 
         db.session.add(user)
         db.session.commit()
-        # app.logger.info("Emp added successfully")
+        logging.info("Emp added successfully")
         return json.dumps({"SUCCESS": f"Record ({user.id}) Added Successfully...! 200"})
     else:
         return json.dumps({"ERROR": "Required fields not present"})
@@ -109,7 +109,7 @@ def emp_login():
                 print("password")
                 token = create_access_token(identity=user.username)
                 print("token", token)
-                # app.logger.info("Get token when login")
+                logging.info("Get token when login")
                 return json.dumps({"token": token})
 
         else:
@@ -129,7 +129,7 @@ def get_emp_all():
         emp = redis_cache.get(EMP_LIST)
         emp = literal_eval(emp.decode('utf8'))
         print("redis")
-        # app.logger.info("Get all emp")
+        logging.info("Get all emp")
         return jsonify({'employees': emp})
     else:
         print("Getting emp Data from mysql")
@@ -139,7 +139,7 @@ def get_emp_all():
         redis_cache.set(EMP_LIST, emps)
         print("emps cache set")
         time.sleep(25)
-        # app.logger.info("Employee : %s", emps)
+        logging.info("Employee : %s", emps)
         return jsonify({'employees': emps})
 
 
@@ -152,7 +152,7 @@ def get_emp(id):
         emp = redis_cache.get(EMP_LIST)
         emp = literal_eval(emp.decode('utf8'))
         print("redis")
-        app.logger.info("Get all emp")
+        logging.info("Get all emp")
         return jsonify({'employees': emp})
     else:
         emp = Employee.query.filter_by(id=id).first()
@@ -169,7 +169,7 @@ def get_emp(id):
                          }
             redis_cache.set(EMP_LIST, json_dict)
             print("emps cache set")
-            app.logger.info("Get Employee with particular id")
+            logging.info("Get Employee with particular id")
             return json.dumps(json_dict, indent=4, sort_keys=True, default=str)
         else:
             return json.dumps({"ERROR": f"No Employee with Given Id {id}"})
@@ -196,7 +196,7 @@ def update_emp(id):
                 emp.age = data.get('age')
                 emp.contact_no = data.get('contact_no')
                 db.session.commit()
-                app.logger.info("Employee updated successfully")
+                logging.info("Employee updated successfully")
                 return json.dumps({"SUCCESS": f"Record ({emp.id}) Updated Successfully...!  200"})
         return json.dumps({"ERROR": "Required fields not present"})
     return json.dumps({"ERROR": "emp with given id not present so cannot update.."})
@@ -213,7 +213,7 @@ def search_emp():
         emp = redis_cache.get(EMP_LIST)
         emp = literal_eval(emp.decode('utf8'))
         print("redis")
-        app.logger.info("Get all emp")
+        logging.info("Get all emp")
         return jsonify({'employees': emp})
     else:
         data = request.get_json()
@@ -241,7 +241,7 @@ def delete_emp(email):
     if emp.is_admin_status==True:
         db.session.delete(emp)
         db.session.commit()
-        app.logger.info("Employee deleted successfully")
+        logging.info("Employee deleted successfully")
         return json.dumps({"SUCCESS": f"Record ({email}) Removed Successfully...! 200"})
     return json.dumps({"ERROR": "Employee with given email not present so cannot Delete.."})
 
@@ -292,7 +292,7 @@ def view_salary(id):
                      "salary": sal.salary
 
                      }
-        app.logger.info("Get Salary of {current_user}")
+        logging.info("Get Salary of {current_user}")
         return json.dumps(json_dict, indent=4, sort_keys=True, default=str)
     else:
         return json.dumps({"ERROR": f"salary not assign to  {current_user}"})
@@ -318,7 +318,7 @@ def add_dept():
             depart = Department(**data)
             db.session.add(depart)
             db.session.commit()
-            app.logger.info("Department added successfully")
+            logging.info("Department added successfully")
 
             return json.dumps({"SUCCESS": f"Record ({depart.id}) Added Successfully...! 200"})
 
@@ -340,7 +340,7 @@ def get_dept(id):
                      "Department_name": dept.name,
 
                      }
-        app.logger.info("Get Department with particular id")
+        logging.info("Get Department with particular id")
         return json.dumps(json_dict, indent=4, sort_keys=True, default=str)
     else:
         return json.dumps({"ERROR": f"No Department with Given Id {id}"})
@@ -357,7 +357,7 @@ def get_all_dept():
         dept = redis_cache.get(DEPART_LIST)
         dept = literal_eval(dept.decode('utf8'))
         print("redis")
-        app.logger.info("Get all dept")
+        logging.info("Get all dept")
         return jsonify({'Department': dept})
     else:
         print("Getting emp Data from mysql")
@@ -366,7 +366,7 @@ def get_all_dept():
         depts = str(dept)
         redis_cache.set(DEPART_LIST, depts)
         print("dept cache set")
-        app.logger.info("Department : %s", depts)
+        logging.info("Department : %s", depts)
         return jsonify({'Department': depts})
 
 
@@ -384,7 +384,7 @@ def update_dept(id):
                 dept.name = data.get('name')
 
                 db.session.commit()
-                app.logger.info("Department updated successfully")
+                logging.info("Department updated successfully")
                 return json.dumps({"SUCCESS": f"Record ({dept.id}) Updated Successfully...!  200"})
         return json.dumps({"ERROR": "Required fields not present"})
     return json.dumps({"ERROR": "Department with given id not present so cannot update.."})
@@ -415,7 +415,7 @@ def delete_dept(id):
     if dept:
         db.session.delete(dept)
         db.session.commit()
-        app.logger.info("Department deleted successfully")
+        logging.info("Department deleted successfully")
         return json.dumps({"SUCCESS": f"Record ({id}) Removed Successfully...! 200"})
     return json.dumps({"ERROR": "Department with given id not present so cannot Delete.."})
 
@@ -439,7 +439,7 @@ def add_job():
                             department_id=data["department_id"], employee_id=data["employee_id"])
             db.session.add(rol)
             db.session.commit()
-            app.logger.info("Job added successfully")
+            logging.info("Job added successfully")
             return json.dumps({"SUCCESS": f"Record ({rol.id}) Added Successfully...!  200"})
         return json.dumps({"ERROR": "Required fields not present"})
     else:
@@ -464,7 +464,7 @@ def add_leave():
                           job_title_id=data["job_title_id"])
             db.session.add(leave)
             db.session.commit()
-            app.logger.info("On duty time added successfully")
+            logging.info("On duty time added successfully")
             return json.dumps({"SUCCESS": f"Record ({leave.id}) Added Successfully...!  200"})
         return json.dumps({"ERROR": "Required fields notleave present"})
     else:
@@ -488,7 +488,7 @@ def add_attend():
                          employee_id=data["employee_id"], job_title_id=data["job_title_id"], leave_id=data["leave_id"])
     db.session.add(attendc)
     db.session.commit()
-    app.logger.info("On duty time added successfully")
+    logging.info("On duty time added successfully")
     return json.dumps({"SUCCESS": f"Record ({attendc.id}) Added Successfully...!  200"})
 
 
@@ -508,7 +508,7 @@ def get_attend(id):
                      "role_employee_id": role.employee_id,
                      "role_leave_id": role.leave_id
                      }
-        app.logger.info("Get attendance with particular id.")
+        logging.info("Get attendance with particular id.")
         return attendance_schema.dump(role)
     else:
         return json.dumps({"ERROR": f"No attendance with Given Id {id}"})
@@ -523,7 +523,7 @@ def get_job_all():
     access_token = create_access_token(identity=current_user)
     all_job = Job_title.query.all()
 
-    app.logger.info("Get all role ")
+    logging.info("Get all role ")
     return job_titles_schema.dump(all_job)
 
 
@@ -539,7 +539,7 @@ def get_leave_all():
         leave = redis_cache.get(LEAVE_LIST)
         leave = literal_eval(leave.decode('utf8'))
         print("redis")
-        app.logger.info("Get all leave")
+        logging.info("Get all leave")
         return jsonify({'Leaves': leave})
     else:
         print("Getting emp Data from mysql")
@@ -548,7 +548,7 @@ def get_leave_all():
         leaves = str(leave)
         redis_cache.set(LEAVE_LIST, leaves)
         print("leave cache set")
-        app.logger.info("Leaves : %s", leaves)
+        logging.info("Leaves : %s", leaves)
         return jsonify({'Leaves': leaves})
 
 
@@ -562,5 +562,5 @@ def get_attend_all():
     access_token = create_access_token(identity=current_user)
     allattend = Attendance.query.all()
 
-    app.logger.info("Get all role ")
+    logging.info("Get all role ")
     return attendances_schema.dump(allattend)

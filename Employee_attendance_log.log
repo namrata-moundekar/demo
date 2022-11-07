@@ -4432,3 +4432,30 @@
 2022-11-06 17:20:12,795 INFO werkzeug : 127.0.0.1 - - [06/Nov/2022 17:20:12] "GET /get_emp/ HTTP/1.1" 200 -
 2022-11-06 17:20:17,438 INFO werkzeug : 127.0.0.1 - - [06/Nov/2022 17:20:17] "POST /emp_login/ HTTP/1.1" 200 -
 2022-11-06 17:20:23,065 INFO werkzeug : 127.0.0.1 - - [06/Nov/2022 17:20:23] "[31m[1mPOST /emp/search/ HTTP/1.1[0m" 401 -
+2022-11-07 17:39:04,289 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-07 17:39:04,289 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-07 17:39:04,290 INFO werkzeug :  * Restarting with stat
+2022-11-07 17:39:04,872 WARNING werkzeug :  * Debugger is active!
+2022-11-07 17:39:04,974 INFO werkzeug :  * Debugger PIN: 779-750-893
+2022-11-07 17:39:19,678 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2022-11-07 17:39:19,678 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2022-11-07 17:39:19,679 INFO werkzeug :  * Restarting with stat
+2022-11-07 17:39:20,376 WARNING werkzeug :  * Debugger is active!
+2022-11-07 17:39:20,377 INFO werkzeug :  * Debugger PIN: 779-750-893
+2022-11-07 17:40:08,292 INFO root : Get token when login
+2022-11-07 17:40:08,294 INFO werkzeug : 127.0.0.1 - - [07/Nov/2022 17:40:08] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-07 17:45:30,602 INFO werkzeug :  * Detected change in '/home/neosoft/PycharmProjects/pythonProject/flask_app/apps.py', reloading
+2022-11-07 17:45:30,914 INFO werkzeug :  * Restarting with stat
+2022-11-07 17:45:31,946 WARNING werkzeug :  * Debugger is active!
+2022-11-07 17:45:31,946 INFO werkzeug :  * Debugger PIN: 779-750-893
+2022-11-07 17:45:49,408 INFO werkzeug : 127.0.0.1 - - [07/Nov/2022 17:45:49] "[31m[1mGET /view_salary/1 HTTP/1.1[0m" 401 -
+2022-11-07 17:45:53,562 INFO root : Get token when login
+2022-11-07 17:45:53,564 INFO werkzeug : 127.0.0.1 - - [07/Nov/2022 17:45:53] "POST /emp_login/ HTTP/1.1" 200 -
+2022-11-07 17:46:15,757 INFO root : Get Salary of {current_user}
+2022-11-07 17:46:15,758 INFO werkzeug : 127.0.0.1 - - [07/Nov/2022 17:46:15] "GET /view_salary/1 HTTP/1.1" 200 -
